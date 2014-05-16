@@ -147,10 +147,10 @@ body,body.ui-overlay-a{
 	background-image:none;
 	background-repeat:no-repeat;
 	background-size:cover;	
-	background: linear-gradient(left , rgb(0, 0, 0) 1% , rgb(0, 0, 0) 80%);
-background: -o-linear-gradient(left , rgb(0, 0, 0) 1% , rgb(0, 0, 0) 80%);
-background: -ms-linear-gradient(left , rgb(0, 0, 0) 1% , rgb(0, 0, 0) 80%);
-background: -moz-linear-gradient(left , rgb(0, 0, 0) 1% , rgb(0, 0, 0) 80%);
-background: -webkit-linear-gradient(left , rgb(0, 0, 0) 1% , rgb(0, 0, 0) 80%);
+	background: linear-gradient(top , rgb(0, 0, 0) 1% , rgb(106, 100, 100) 80%);
+background: -o-linear-gradient(top , rgb(0, 0, 0) 1% , rgb(106, 100, 100) 80%);
+background: -ms-linear-gradient(top , rgb(0, 0, 0) 1% , rgb(106, 100, 100) 80%);
+background: -moz-linear-gradient(top , rgb(0, 0, 0) 1% , rgb(106, 100, 100) 80%);
+background: -webkit-linear-gradient(top , rgb(0, 0, 0) 1% , rgb(106, 100, 100) 80%);
 }
 
