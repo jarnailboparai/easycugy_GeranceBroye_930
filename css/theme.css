@@ -1,14 +1,12 @@
+body{
 
+	overflow-x:hidden;
+
+}
 
 .theme_bg{
 
-	background:#22a201;
-
-	min-width:320px;
-
-	background-size:100% ;
-
-	background-position: top center;
+	background:url(../images/theme_background.jpg) center top;
 
 }
 
@@ -46,7 +44,11 @@
 
 	display:table-cell;
 
-	/*background:url(../images/icon_bg.png) no-repeat;*/
+	background-image:url('../images/icon_bg.png');
+
+	background-repeat:no-repeat;
+
+	background-size:100% 100%;
 
 	vertical-align:middle;
 
@@ -56,19 +58,11 @@
 
 .ui-header{
 
-	background:url("../images/header_bg.png") repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+	background:url(../images/header_bg.png) !important;
 
 	border:none !important;
 
-	border-bottom:none !important;
-
 	
-
-}
-
-.ui-header a{
-
-	box-shadow:none;
 
 }
 
@@ -82,7 +76,7 @@
 
 	font-weight:normal;
 
-	margin:0 23%;
+	margin:0 2%;
 
 }
 
@@ -132,15 +126,33 @@
 
 
 
-/* custom setting of icons */
+.app_feature_list a{
 
-.app_feature_list a img{
+	color:#fff !important;
+
+	text-decoration:none;
+
+	cursor:pointer !important;
+
+}
+
+.app_feature_list a label{
+
+	cursor:pointer !important;
+
+}
+
+.app_feature_list a.item  img{
 
 	max-height:32px;
 
 	max-width:32px;
 
 }
+
+/* EDIT BY AMITOJ 18-Feb */
+
+
 
 @media (min-width: 100px) and (max-width: 399px) {
 .theme_bg
@@ -150,6 +162,8 @@
 	background-size:cover;	
 }
 }
+
+
 
 
 
